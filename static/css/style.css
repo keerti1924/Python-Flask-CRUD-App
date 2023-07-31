@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,600;1,800&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,600;1,700&display=swap');
+
+*{
+   padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+.heading{
+    background-color: #00538C;
+    color:#fff;
+    padding:20px;
+}
+
+h1{
+    font-size : 50px;
+}
+
+.main{
+    background: #B0C4DE;
+    padding: 100px;
+}
+
+.main h2{
+    background: #f1f1f1;
+    padding: 20px;
+    font-size : 40px;
+    color : #00538C;
+    box-shadow : 5px 5px 10px rgba(0,0,0,0.4);
+    margin-bottom : 50px;
+}
+
+.main-btn{
+    background-color: #00538C;
+    color : #fff;
+    font-size :15px;
+}
+
+.main-btn:hover{
+    background-color: #fff;
+    color : #00538C;
+    border : 1px solid #00538C;
+    font-weight : bold;
+}
+
+.table{
+    border : none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
+    background: #f1f1f1;
+}
+
+.heading-row{
+    background: #00538C;
+    color :#fff;
+    font-size :17px;
+}
+
+tr{
+    border: 2px solid #B0C4DE;
+}
+
+td{
+    font-size: 15px;
+    color :#082567;
+}
+
+.delete-button{
+    color: #CD5C5C;
+    font-size: 15px;
+}
+
+.button{
+    font-size: 15px;
+}
+
+.button:hover,
+.delete-button:hover{
+    color : #6CA0DC;
+}
+
+.footer{
+    background: #00538C;
+    color: #fff;
+    padding: 25px;
+}
+
+.modal-header{
+    background: #00538C;
+    color: #fff;
+}
+
+.close{
+    color:#fff;
+}
+.close:hover{
+    color:#fff;
+}
+
+label{
+    font-size :18px;
+}
